@@ -1,0 +1,67 @@
+<div class="container" style="margin-top:7%;">
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <h4 style="margin-top:30px;">Welcome to Nest !</h4>
+            <h5>A glimpse at the recognition and support we have received for our work so far:</h5>
+            <div class=" top1 ">
+                <div class="row ">
+                    <div class="col-md-4 col-sm-4 ">
+                        <img src="\assets\water.jpg" alt="Contributor1" width="100px" height="100px">
+                    </div>
+                    <div class="col-md-8 col-sm-8 ">
+                        <h4>Tata Trusts</h4>
+                        In 2015, we received grant support for organisational growth for a duration of 4 years</div>
+                </div>
+            </div>
+            <!--Contributor-1-->
+            <div class="top1 ">
+                <div class="row ">
+                    <div class="col-md-4 col-sm-4 ">
+                        <img src="\assets\water.jpg" alt="contributor2" width="100px " height="100px ">
+                    </div>
+                    <div class="col-md-8 col-sm-8 ">
+                        <h4>Tata Trusts</h4>
+                        In 2015, we received grant support for organisational growth for a duration of 4 years</div>
+                </div>
+            </div>
+            <!--Contributor-2-->
+            <div class="top1 ">
+                <div class="row ">
+                    <div class="col-md-4 col-sm-4 ">
+                        <img src="\assets\water.jpg" alt="contributor3" width="100px " height="100px ">
+                    </div>
+                    <div class="col-md-8 col-sm-8 ">
+                        <h4>Tata Trusts</h4>
+                        In 2015, we received grant support for organisational growth for a duration of 4 years</div>
+                </div>
+            </div>
+            <!--Contributor-3-->
+        </div>
+        <!--Different number of Contributors-->
+        <div class="col-md-6 col-sm-12 ">
+            <div class="container login-bg">
+                <form action="#" method="post">
+                    <div class="form-group ">
+                        <a href="/"><button type="button" class="btn btn-danger">Google</button></a><br><br>
+                        <a href="https://www.facebook.com/"><button type="button" class="btn btn-primary">Facebook</button></a><br><br>
+                        <input type="email" class="form-control" id="email" placeholder=" Your email" style="margin-left:20%;" name="email">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" style="margin-left:20%;" id="pwd" placeholder="Password" name="pswd">
+                    </div>
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                              <input class="form-check-input"  type="checkbox" name="remember"> Remember me</label>
+                    </div>
+                    <p>Forgot your Password?</p>
+                    <a href="/"><button type="submit" class="btn btn-success">Log in</button></a>
+                    <p>Don't have an account?
+                        <a routerLink="./JoinUs">here</a>
+                    </p>
+                    <a routerLink="./HowToContribute">Next</a>
+                </form>
+            </div>
+            <!--Login Form-->
+        </div>
+    </div>
+    <router-outlet></router-outlet>

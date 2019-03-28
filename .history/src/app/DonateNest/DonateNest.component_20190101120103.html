@@ -1,0 +1,55 @@
+<div class="top">
+    <div class="containe-fluid">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <!--Image and description-->
+                <h4>Support Nest</h4>
+                <img src="\assets\water.jpg" width="80%" height="60%">
+                <h6>Your contribution will help us build new technology, invest in process excellence, seek new impact partnerships in underserved geographies, build capacities of low income entrepreneurs through financial literacy and business mentoring</h6>
+                <hr>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <!--Contribution form-->
+                <div class="bootstrap-iso">
+                    <div class="container-fluid">
+                        <form class="form-group" (ngSubmit)="onSubmit(f)" #f="ngForm" action="#" method="post">
+                            <h4 class="center">Make a contribution</h4>
+                            <div class="form_bg">
+                                <label for="name" class="control-label">NAME</label>
+                                <input id="name" type="text " name="name " placeholder="e.g. Ramesh Agrawal " class="form-control ">
+                                <br>
+                                <label for="email" class="control-label">EMAIL</label>
+                                <input id="email" type=" email" name="email " placeholder="e.g. xyz@.com " class="form-control ">
+                                <br>
+                                <div>
+                                    <div class="container">
+                                        <div class="row ">
+                                            <div class="col-md-6 ">
+                                                <input type="checkbox" name="items" value="Clothes "> Clothes<br><br>
+                                                <input type="checkbox" name="items" value="Stationery ">Stationery<br><br>
+                                                <input type="checkbox" name="items " value="Tolietries ">Tolietries<br><br>
+                                            </div>
+                                            <div class="col-md-6 ">
+                                                <input type="checkbox" name="items " value="Financial Help ">Financial Help<br><br>
+                                                <input type="checkbox" name="items " value="Furniture ">Furniture<br><br>
+                                                <input type="checkbox" name="items " value="Grocceries ">Grocceries<br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="p">Availability between 4pm to 6pm.</div>
+                                    <div class="p">Enter your time and date of arrival:</div>
+                                    <input type="time" class="form-control " name="time"><br>
+                                    <input type="date" class="form-control " name="date">
+                                    <div class="p "><b>Note: </b>It is requested to donate new clothes if possible and the date of your arrival should be 2 days after your submission. You will be notified via an email within 24 hours.</div>
+                                    <h6><input style="margin-left:-1% " type="checkbox" name="tax ">I would like a tax exemption receipt.</h6>
+                                    <button class="btn btn-success " name="submit " value="submit ">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

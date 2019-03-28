@@ -1,0 +1,1176 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/* You can add global styles to this file, and also import other style files */
+
+.form-control {
+    width: 60%;
+    text-align: center;
+}
+
+.btn {
+    width: 40%;
+}
+
+.top {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.top1 {
+    padding-top: 5%;
+}
+
+footer {
+    color: #797373;
+    margin-top: 3%;
+}
+
+.form-bg {
+    margin: 2%;
+    width: 90%;
+    height: 400px;
+    background-color: azure;
+}
+
+.login-bg {
+    background-color: #e6e5e5;
+    margin-top: 10px;
+    border-radius: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.top {
+    padding-top: 8%;
+}
+
+.form_bg {
+    width: 90%;
+    height: 70%;
+    padding: 3%;
+    margin: 0% 5% 5% 5%;
+    background-color: antiquewhite;
+    border-radius: 2%;
+    text-align: center;
+}
+
+.menu {
+    /* background: transparent;
+height: 300px; */
+    position: fixed;
+    z-index: +999;
+}
+
+.menu_bg {
+    background: black;
+    width: 100%;
+    margin-top: -15%;
+    height: 70px;
+}
+
+input {
+    margin-left: 20%;
+}
+
+.background-color {
+    background-color: rgba(170, 168, 168, .09);
+    border-bottom: 1px solid #ebebeb
+}
+
+.sidebar-btn {
+    display: inline-block;
+    width: 40px;
+    height: 100%;
+    padding: 20px 13px
+}
+
+.sidebar-menu>li>a.sidebar-joinus {
+    display: inline-block;
+    width: 90px;
+    height: 34px;
+    font-weight: 600;
+    padding: 7px 10px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #27ae60;
+    color: #fff
+}
+
+.sidebar-menu>li>a.sidebar-joinus:focus,
+.sidebar-menu>li>a.sidebar-joinus:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+.sidebar-menu {
+    padding: 10px 25px 15px 25px
+}
+
+.sidebar-joinus-wrapper {
+    margin-bottom: 20px
+}
+
+.sidebar-menu>li>a.sidebar-login {
+    display: inline;
+    color: #B9C1CA;
+    font-weight: 600
+}
+
+.sidebar-menu>li>a.sidebar-login:focus,
+.sidebar-menu>li>a.sidebar-login:hover {
+    color: #B9C1CA;
+    text-decoration: none
+}
+
+.sidebar-menu {
+    list-style: none
+}
+
+.sidebar-image {
+    margin-bottom: 13px
+}
+
+.sidebar-txt {
+    margin-bottom: 20px
+}
+
+.sidebar-details {
+    margin-bottom: 19px
+}
+
+.sidebar-login-wrapper {
+    margin-top: 16px
+}
+
+.sidebar-menu .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #f0f0f0
+}
+
+.sidebar-menu>li>b {
+    font-weight: 600
+}
+
+.sidebar-menu>li>img {
+    border-radius: 2.5px
+}
+
+.sidebar-menu>li>span {
+    display: block;
+    color: #999;
+    width: 195px
+}
+
+.sidebar-menu>li>span>a {
+    font-weight: 600;
+    color: #999
+}
+
+.sidebar-menu>li>span>a:focus,
+.sidebar-menu>li>span>a:hover {
+    text-decoration: none;
+    color: #999
+}
+
+.sidebar-menu>li>a {
+    display: block;
+    color: #000;
+    padding: 5px 0
+}
+
+.sidebar-menu>li>a:focus,
+.sidebar-menu>li>a:hover {
+    text-decoration: none
+}
+
+.sidebar-menu>li input[type=submit] {
+    display: block;
+    padding: 5px 0;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    white-space: nowrap;
+    outline: 0;
+    border: 0;
+    background-color: #f7f7f7;
+    color: #000;
+    width: 100%;
+    text-align: left
+}
+
+.sidebar {
+    position: fixed;
+    z-index: 2;
+    height: 100%;
+    width: 240px;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    color: #000;
+    background-color: #fff;
+    -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
+    transition: opacity .5s ease, -webkit-transform .5s ease;
+    transition: transform .5s ease, opacity .5s ease;
+    transition: transform .5s ease, opacity .5s ease, -webkit-transform .5s ease;
+    -webkit-transform: translate(-100%, 0) translate3d(-100%, 0, 0);
+    transform: translate(-100%, 0) translate3d(-100%, 0, 0)
+}
+
+.sidebar.show {
+    overflow-y: auto;
+    overflow-x: hidden;
+    opacity: 1;
+    -webkit-transform: translate(0, 0) translate3d(0, 0, 0);
+    transform: translate(0, 0) translate3d(0, 0, 0)
+}
+
+.sidebar-overlay {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, .4);
+    visibility: hidden;
+    -webkit-transition: opacity .5s ease, visibility .5s ease;
+    transition: opacity .5s ease, visibility .5s ease
+}
+
+.sidebar-overlay.show {
+    opacity: 1;
+    visibility: visible
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: #080808
+}
+
+.header-nav .dropdown-menu .divider {
+    background-color: #f0f0f0;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.sidebar-menu>li>a.sub-li {
+    color: #757575
+}
+
+@media screen and (min-width:992px) {
+    .header-top {
+        box-shadow: none
+    }
+    .header .logo {
+        padding: 0px;
+        text-align: left
+    }
+    .header-nav .dropdown-menu {
+        border: 0
+    }
+    .header-nav .dropdown-menu.left {
+        left: 0
+    }
+    .header-nav .dropdown-menu .divider {
+        background-color: #f0f0f0;
+        margin-left: 20px;
+        margin-right: 20px
+    }
+    .header-nav .dropdown-menu>li>a {
+        padding: 8px 20px;
+        font-size: 13px;
+        color: #000
+    }
+    .header-nav .dropdown-menu>li>span {
+        display: block;
+        color: #999
+    }
+    .header-nav .dropdown-menu>li>span>a {
+        font-weight: 600;
+        color: #999
+    }
+    .header-nav .dropdown-menu>li>span>a:focus,
+    .header-nav .dropdown-menu>li>span>a:hover {
+        text-decoration: none;
+        color: #999
+    }
+    .header-nav .dropdown-menu>li input[type=submit] {
+        display: block;
+        padding: 8px 20px;
+        font-size: 13px;
+        clear: both;
+        font-weight: 400;
+        line-height: 1.42857143;
+        white-space: nowrap;
+        outline: 0;
+        border: 0;
+        background-color: #fff;
+        color: #000;
+        width: 100%;
+        text-align: left
+    }
+    .header-nav .dropdown-menu>li input[type=submit]:focus,
+    .header-nav .dropdown-menu>li input[type=submit]:hover {
+        background-color: #f5f5f5
+    }
+    .header-nav.nav-pills>li>a {
+        color: white;
+        height: 46px;
+        padding: 13px 30px;
+        font-size: 13px;
+        font-weight: 600;
+        border-radius: 0
+    }
+    .header-nav.nav-pills>li.active>a {
+        color: #000;
+        background-color: inherit;
+        border-bottom: 3px solid #B9C1CA;
+    }
+    .header-nav.nav-pills>li.active>a:focus,
+    .header-nav.nav-pills>li.active>a:hover {
+        color: #000;
+        background-color: #eee;
+    }
+    .header-nav.nav-pills>li>a.habba,
+    .header-nav.nav-pills>li>a.sbm-link {
+        color: #B9C1CA;
+    }
+    .navbar-left {
+        float: left!important
+    }
+    .navbar-right {
+        float: right!important;
+        margin-right: -15px
+    }
+    .navbar-right~.navbar-right {
+        margin-right: 0
+    }
+    .header-nav.nav-pills>li>a.header-joinus {
+        height: 32px;
+        padding: 6px 15px;
+        margin: 14px 0;
+        border-radius: 4px;
+        background-color: #27ae60;
+        color: #fff;
+    }
+}
+
+@media(max-width:767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #777
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+        color: #333;
+        background-color: transparent
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus,
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
+        color: #555;
+        background-color: #e7e7e7
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a,
+    .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:focus,
+    .navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:hover {
+        color: #ccc;
+        background-color: transparent
+    }
+}
+
+.panel-heading>.dropdown .dropdown-toggle {
+    color: inherit
+}
+
+.header-nav .dropdown-menu {
+    border: 0
+}
+
+.header-nav .dropdown-menu.left {
+    left: 0
+}
+
+.header-nav .dropdown-menu .divider {
+    background-color: #f0f0f0;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.header-nav .dropdown-menu>li>a {
+    padding: 8px 20px;
+    font-size: 13px;
+    color: #000
+}
+
+.header-nav .dropdown-menu>li>span {
+    display: block;
+    color: #999
+}
+
+.header-nav .dropdown-menu>li>span>a {
+    font-weight: 600;
+    color: #999
+}
+
+.header-nav .dropdown-menu>li>span>a:focus,
+.header-nav .dropdown-menu>li>span>a:hover {
+    text-decoration: none;
+    color: #999
+}
+
+.header-nav .dropdown-menu>li input[type=submit] {
+    display: block;
+    padding: 8px 20px;
+    font-size: 13px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    white-space: nowrap;
+    outline: 0;
+    border: 0;
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    text-align: left
+}
+
+.header-nav .dropdown-menu>li input[type=submit]:focus,
+.header-nav .dropdown-menu>li input[type=submit]:hover {
+    background-color: #f5f5f5
+}
+
+.navbar-left {
+    margin-top: 20px;
+}
+
+.logo-span {
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: -40px;
+    margin-right: 100px;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    text-decoration: none;
+    transition-property: background-color;
+    transition-duration: 1s;
+    background-color: #B9C1CA;
+    width: 100px;
+    height: 200px;
+    border: 1px solid #B9C1CA;
+    border-radius: 5%;
+    color: black;
+    font-size: 1em;
+}
+
+a {
+    padding-right: 10px;
+    color: #f4f5f7;
+}
+
+.logo {
+    height: 50px;
+    width: 90px;
+    padding: 2px;
+}
+
+.logo-head {
+    color: #00afef;
+    float: left;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-right: 85%;
+    margin-top: -35px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header-aqua {
+    background: white;
+    width: 100%;
+    height: 70px;
+}
+
+.policy {
+    margin-left: -100px;
+}
+
+.donate {
+    width: 90%;
+}
+
+.head_footer {
+    padding: 10px;
+}
+
+.button_nav {
+    width: 30%;
+}
+
+.jumbo {
+    padding: 10px;
+    text-align: center;
+}
+
+.features {
+    margin-top: -200px;
+    margin-left: 235px;
+    /* border-radius: 3px; */
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.2;
+    position: absolute;
+    z-index: +999;
+    color: black;
+}
+
+.impact {
+    margin-top: -80px;
+    margin-left: 10px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    width: 165px;
+    height: 70px;
+    border: 1px solid black;
+    opacity: 0.2;
+    position: absolute;
+    z-index: +999;
+    color: rgb(255, 255, 255);
+}
+
+.position {
+    margin-left: 40%;
+}
+
+.text {
+    color: black;
+    position: absolute;
+}
+
+.Nest-header {
+    font-family: Bradley Hand, cursive;
+    color: #007bff;
+}
+
+.carousel_img {
+    width: 100%;
+    height: 400px;
+}
+
+.footer-distributed {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    font: bold 16px sans-serif;
+    text-align: left;
+    padding: 50px 60px 40px;
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    float: left;
+}
+
+
+/* The company logo */
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0 0 10px;
+}
+
+.footer-distributed h3 span {
+    color: #5383d3;
+}
+
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons {
+    margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    float: right;
+}
+
+.footer-distributed .footer-right p {
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 42px 0 0;
+    color: #ffffff;
+}
+
+
+/* The contact form */
+
+.footer-distributed form {
+    display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea {
+    display: block;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    font: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    color: #d1d2d2;
+    width: 400px;
+    padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+    color: #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+    color: #5c666b;
+    opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder {
+    color: #5c666b;
+}
+
+.footer-distributed form input {
+    height: 55px;
+    margin-bottom: 15px;
+}
+
+.footer-distributed form textarea {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-distributed form button {
+    border-radius: 3px;
+    background-color: #33383b;
+    color: #ffffff;
+    border: 0;
+    padding: 15px 50px;
+    font-weight: bold;
+    float: right;
+}
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+    .footer-distributed .footer-company-name {
+        font-size: 12px;
+    }
+    .footer-distributed form input,
+    .footer-distributed form textarea {
+        width: 250px;
+    }
+    .footer-distributed form button {
+        padding: 10px 35px;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer-distributed {
+        padding: 30px;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right {
+        float: none;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .footer-distributed .footer-left {
+        margin-bottom: 40px;
+    }
+    .footer-distributed form {
+        margin-top: 30px;
+    }
+    .footer-distributed form {
+        display: block;
+    }
+    .footer-distributed form button {
+        float: none;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: #eaf0f2;
+}
+
+body {
+    font: 14px/1.5 Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 200px;
+}
+
+header h1 {
+    font: normal 32px/1.5 'Open Sans', sans-serif;
+    color: #3F71AE;
+    padding-bottom: 16px;
+}
+
+header h2 {
+    color: #F05283;
+}
+
+header h2 a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #F05283;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font: bold 14px/1 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+header h2 a:hover {
+    background-color: #F05283;
+    transition: 0.2s;
+    color: #fff;
+}
+
+header ul {
+    max-width: 600px;
+}
+
+header ul a {
+    text-decoration: none;
+    color: #FFF;
+    text-align: left;
+    background-color: #B9C1CA;
+    padding: 10px 16px;
+    border-radius: 2px;
+    opacity: 0.8;
+    font-size: 16px;
+    display: inline-block;
+    margin: 4px;
+    line-height: 1;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+header ul li a.active {
+    background-color: #66B650;
+    pointer-events: none;
+}
+
+header ul li a:hover {
+    opacity: 1;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+
+/* In our demo, the footers are fixed to the bottom of the page */
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+
+.header-login-signup {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px #ccc;
+    padding: 20px 40px;
+    height: 80px;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.header-login-signup .header-limiter {
+    max-width: 1200px;
+    text-align: center;
+}
+
+
+/* Logo */
+
+.header-login-signup .header-limiter h1 {
+    float: left;
+    font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    margin: 0;
+}
+
+.header-login-signup .header-limiter h1 span {
+    color: #5383d3;
+}
+
+
+/* The navigation links */
+
+.header-login-signup .header-limiter a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-login-signup .header-limiter nav {
+    font: 16px Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    float: left;
+    margin: 0 0 0 60px;
+    padding: 0;
+}
+
+.header-login-signup .header-limiter nav a {
+    font-size: 14px;
+    display: inline-block;
+    padding: 0 5px;
+    opacity: 0.9;
+    text-decoration: none;
+    line-height: 1;
+}
+
+.header-login-signup .header-limiter nav a:hover {
+    opacity: 1;
+}
+
+.header-login-signup .header-limiter nav a.selected {
+    color: #608bd2;
+}
+
+
+/* Login/Sign up buttons */
+
+.header-login-signup .header-limiter ul {
+    font: 14px Arial, Helvetica, sans-serif;
+    list-style: none;
+    line-height: 1;
+    float: right;
+}
+
+.header-login-signup .header-limiter ul li {
+    display: inline-block;
+    opacity: 0.9;
+}
+
+.header-login-signup .header-limiter ul li:hover {
+    opacity: 1;
+}
+
+
+/* The sign up button */
+
+.header-login-signup .header-limiter ul li:last-child a {
+    font-weight: bold;
+    background-color: #3a3c3e;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+
+/* Making the header responsive */
+
+@media all and (max-width: 600px) {
+    .header-login-signup {
+        padding: 25px;
+        height: 85px;
+    }
+    .header-login-signup .header-limiter h1 {
+        float: none;
+        margin: -8px 0 2px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 1;
+    }
+    .header-login-signup .header-limiter nav {
+        margin: 0;
+        float: none;
+    }
+    .header-login-signup .header-limiter nav li a {
+        font-size: 13px;
+    }
+    .header-login-signup .header-limiter ul {
+        display: none;
+    }
+}
+
+
+/* For the headers to look good, be sure to reset the margin and padding of the body */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700'); */
+
+html {
+    background-color: #eaf0f2;
+}
+
+body {
+    font: 14px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 200px;
+}
+
+.menu img {
+    opacity: 0.4;
+    margin: 20px auto;
+}
+
+.menu h1 {
+    margin-top: 0;
+    font: normal 32px/1.5 'Open Sans', sans-serif;
+    color: #3F71AE;
+    padding-bottom: 16px;
+}
+
+.menu h2 {
+    color: #F05283;
+}
+
+.menu h2 a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #F05283;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font: bold 14px/1 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.menu h2 a:hover {
+    background-color: #F05283;
+    transition: 0.2s;
+    color: #fff;
+}
+
+.menu ul {
+    max-width: 600px;
+    margin: 60px auto 0;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: #FFF;
+    text-align: left;
+    background-color: #B9C1CA;
+    padding: 10px 16px;
+    border-radius: 2px;
+    opacity: 0.8;
+    font-size: 16px;
+    display: inline-block;
+    margin: 4px;
+    line-height: 1;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+.menu ul li a.active {
+    background-color: #66B650;
+    pointer-events: none;
+}
+
+.menu ul li a:hover {
+    opacity: 1;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+@media (max-height:800px) {
+    .menu {
+        padding-top: 40px;
+    }
+}
+
+
+/* -- Demo ads -- */
+
+@media (max-width: 1200px) {
+    #bsaHolder {
+        display: none;
+    }
+}
+
+
+/* -- Link to Tutorialzine -- */
+
+.tz-link {
+    text-decoration: none;
+    color: #fff !important;
+    font: bold 36px Arial, Helvetica, sans-serif !important;
+}
+
+.tz-link span {
+    color: #da431c;
+}
+
+p {
+    font-family: Garamond;
+}
+
+h2,
+h3 {
+    font-family: Garamond;
+}
+
+.p {
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 2%;
+}
+
+.center {
+    margin: 5% 5% 5% 30%;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-color: white;
+}
+
+.right {
+    right: 0;
+    background-color: white;
+    padding-top: 10.4%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.centered img {
+    width: 90%;
+    height: 90%;
+}
+
+.container-fluid1 {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
